@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .btn-container button {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .btn-container input {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px; }
+
+.modal-body {
+  text-align: center; }
+  .modal-body input {
+    width: 100%;
+    margin-bottom: 10px; }
+  .modal-body select {
+    width: 100%; }
