@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif; }
+
+body {
+  background-image: url(https://colorlib.com/etc/regform/colorlib-regform-8/images/signup-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.register-form {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 660px;
+  margin: 100px auto;
+  height: 710px;
+  text-align: center;
+  padding: 20px 80px; }
+  .register-form #form-header {
+    margin-top: 30px; }
+    .register-form #form-header h1 {
+      font-size: 30px;
+      font-weight: bolder;
+      margin-bottom: 30px;
+      text-transform: uppercase; }
+  .register-form input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px; }
+  .register-form button {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #74ebd5, #9face6); }
+  .register-form p {
+    font-size: 18px; }
+    .register-form p a {
+      color: black;
+      font-weight: bold; }
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px; }
+  .btn-wrapper button {
+    margin-right: 20px; }
